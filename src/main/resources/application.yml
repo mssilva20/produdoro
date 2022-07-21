@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    url: mongodb+srv://mssilva20:<password>@cluster0.vzueo.mongodb.net/?retryWrites=true&w=majority
+    
+  data:
+    mongodb:
+      authentication-database: admin
+      
+      auto-index-creation: true
